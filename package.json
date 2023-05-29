@@ -1,0 +1,48 @@
+{
+  "name": "interlogger",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "start-dev": "npx expo start --localhost"
+  },
+  "dependencies": {
+    "@react-navigation/drawer": "^6.6.2",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/react-redux": "^7.1.25",
+    "axios": "^1.4.0",
+    "expo": "~48.0.15",
+    "expo-build-properties": "~0.6.0",
+    "expo-dev-client": "~2.2.1",
+    "expo-device": "~5.2.1",
+    "expo-linear-gradient": "~12.1.2",
+    "expo-notifications": "~0.18.1",
+    "expo-permissions": "~14.1.1",
+    "expo-status-bar": "~1.4.4",
+    "i18next": "^22.5.0",
+    "native-base": "^3.4.28",
+    "react": "18.2.0",
+    "react-i18next": "^12.3.1",
+    "react-native": "0.71.8",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-reanimated-carousel": "^3.3.2",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-svg": "13.4.0",
+    "react-navigation": "^4.4.4",
+    "react-query": "^3.39.3",
+    "react-rain-animation": "^1.0.4",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "typescript": "^4.9.4"
+  },
+  "private": true
+}
